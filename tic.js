@@ -90,7 +90,7 @@ Array.from(boxes).forEach(i => {
                     document.getElementsByClassName("info")[0].innerText = "Turn of " + playerturn;
                 }
             }
-            if(count==9)
+            if(count==9 && draw==false)
             {
                 draw =true;
                 document.querySelector(".info").innerText = "";
